@@ -71,7 +71,6 @@ src_configure() {
 		--enable-xauth \
 		--localstatedir="${EPREFIX}"/var \
 		--without-system-bubblewrap \
-		--without-system-dbus-proxy \
 		$(use_enable doc documentation) \
 		$(use_enable doc gtk-doc) \
 		$(use_enable introspection) \
